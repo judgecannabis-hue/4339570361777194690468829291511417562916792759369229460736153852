@@ -1,0 +1,18 @@
+ИНСТРУКЦИЯ ДЛЯ FLUTLAB.IO
+==========================
+
+FlutLab использует Kotlin DSL (.kts файлы).
+Нужно заменить следующие файлы в проекте:
+
+1. android/settings.gradle.kts
+2. android/build.gradle.kts  
+3. android/app/build.gradle.kts
+4. android/gradle.properties
+
+Файлы для замены находятся в этой папке.
+
+НАЗНАЧЕНИЕ ФАЙЛОВ:
+- settings.gradle.kts → android/settings.gradle.kts
+- build.gradle.kts → android/build.gradle.kts
+- app_build.gradle.kts → android/app/build.gradle.kts
+- gradle.properties → android/gradle.properties
